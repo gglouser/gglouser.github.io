@@ -1,10 +1,8 @@
-# Grant's Little Projects
-
 I'm Grant Glouser, and these are the little projects I've put on GitHub.
 
 ## [Cut and Project Tiling](https://github.com/gglouser/cut-and-project-tiling)
 
-[This interactive applet](https://gglouser.github.io/cut-and-project-tiling) draws Penrose tilings using the pentagrid method or the cut-and-project method, which come from viewing the tiling as a specific slice of a five-dimensional square lattice. These methods are generalized to draw any slice of an any-dimensional square lattice.
+[This interactive applet](https://gglouser.github.io/cut-and-project-tiling) draws tilings like the [Penrose tiling](https://en.wikipedia.org/wiki/Penrose_tiling) using the generalized multigrid method or the equivalent cut-and-project method. [Example gallery.](https://gglouser.github.io/cut-and-project-tiling/docs/gallery.html)
 
 ![example screenshot](https://gglouser.github.io/cut-and-project-tiling/images/screenshot.png)
 
@@ -15,15 +13,15 @@ I'm Grant Glouser, and these are the little projects I've put on GitHub.
 I love [Advent of Code](http://adventofcode.com)!
 My solution repos for all years are available.
 
-In 2018, I created simple interactive visualizations for a couple of the days. Both of these days had large input data with a recursive structure, and I thought they could look interesting drawn in the manner of an L-system.
+In 2018, I created simple interactive visualizations for a couple of the problems. Both of these days had large input data with a recursive structure, and I wanted to see how they looked when drawn like an [L-system](https://en.wikipedia.org/wiki/L-system).
 
-- Day 5: [Polymer Wreath](https://gglouser.github.io/advent2018/visualizations/day05.html)
+- Day 5: [Polymer Wreath](https://gglouser.github.io/advent2018/visualizations/day05.html) - *[task description](https://adventofcode.com/2018/day/5)*
 
-    ![Imgur](https://i.imgur.com/IiZH05N.png)
+  ![example polymer](https://i.imgur.com/IiZH05N.png)
 
-- Day 8: [License Trees](https://gglouser.github.io/advent2018/visualizations/day08.html)
+- Day 8: [License Trees](https://gglouser.github.io/advent2018/visualizations/day08.html) - *[task description](https://adventofcode.com/2018/day/8)*
 
-    ![example tree](https://i.imgur.com/Io6Xp0S.png)
+  ![example tree](https://i.imgur.com/Io6Xp0S.png)
 
 Solution repos:
 
@@ -34,7 +32,7 @@ Solution repos:
 
 ## [brainfree](https://github.com/gglouser/brainfree)
 
-A brainf*ck interpreter in Haskell. It represents the program using a free monad and offers multiple "back ends" to evaluate it. Also does some simple optimizations.
+A brainf*ck interpreter in Haskell. It represents the program using a free monad and offers multiple "back ends" to evaluate it. It also applies some optimizations to the bf program (arithmetic contraction, clear/copy/multiplication loops, and operation offsets).
 
 ## [Jump Game plugin](https://github.com/gglouser/JumpGamePlugin)
 
