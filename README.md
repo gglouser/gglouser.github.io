@@ -2,9 +2,9 @@ I'm Grant Glouser, and these are the little projects I've put on GitHub.
 
 ## [Cut and Project Tiling](https://github.com/gglouser/cut-and-project-tiling)
 
-[This interactive applet](https://gglouser.github.io/cut-and-project-tiling) draws tilings like the [Penrose tiling](https://en.wikipedia.org/wiki/Penrose_tiling) using the generalized multigrid method or the equivalent cut-and-project method. [Example gallery.](https://gglouser.github.io/cut-and-project-tiling/docs/gallery.html)
+[This interactive applet](https://gglouser.github.io/cut-and-project-tiling) draws tilings like the [Penrose tiling](https://en.wikipedia.org/wiki/Penrose_tiling) using a generalized multigrid method or the equivalent cut-and-project method. [Example gallery.](https://gglouser.github.io/cut-and-project-tiling/docs/gallery.html)
 
-![example screenshot](https://gglouser.github.io/cut-and-project-tiling/images/screenshot.png)
+![example screenshot](./assets/images/tiling_screenshot.png)
 
 [Javascript, Rust wasm]
 
@@ -32,7 +32,7 @@ Solution repos:
 
 ## [brainfree](https://github.com/gglouser/brainfree)
 
-A brainf*ck interpreter in Haskell. It represents the program using a free monad and offers multiple "back ends" to evaluate it. It also applies some optimizations to the bf program (arithmetic contraction, clear/copy/multiplication loops, and operation offsets).
+A [brainf*ck](https://en.wikipedia.org/wiki/Brainfuck) interpreter in Haskell. It represents the program using a free monad and offers multiple "back ends" to evaluate it. It also applies some optimizations to the bf program (arithmetic contraction, clear/copy/multiplication loops, and operation offsets).
 
 ## [Jump Game plugin](https://github.com/gglouser/JumpGamePlugin)
 
