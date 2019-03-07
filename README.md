@@ -13,7 +13,7 @@ I'm Grant Glouser, and these are the little projects I've put on GitHub.
 I love [Advent of Code](http://adventofcode.com)!
 My solution repos for all years are available.
 
-In 2018, I created simple interactive visualizations for a couple of the problems. Both of these days had large input data with a recursive structure, and I wanted to see how they looked when drawn like an [L-system](https://en.wikipedia.org/wiki/L-system).
+In 2018, I created simple interactive visualizations for a couple of the problems ([source code](https://github.com/gglouser/advent2018/tree/master/visualizations)). Both of these days had large input data with a recursive structure, and I wanted to see how they looked when drawn like an [L-system](https://en.wikipedia.org/wiki/L-system).
 
 - Day 5: [Polymer Wreath](https://gglouser.github.io/advent2018/visualizations/day05.html) - *[task description](https://adventofcode.com/2018/day/5)*
 
