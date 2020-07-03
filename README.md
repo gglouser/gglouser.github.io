@@ -1,12 +1,23 @@
 I'm Grant Glouser, and these are the little projects I've put on GitHub.
 
+## [GIS Projects](/gis)
+
+Examples of GIS work I've done.
+
+## [InciWeb Viewer](https://github.com/gglouser/InciWebViewer)
+
+This is a simple Android app for viewing the National Incidents RSS feed from
+[InciWeb](https://inciweb.nwcg.gov/), which tracks wildfire incidents in the US.
+
+(Kotlin)
+
 ## [Cut and Project Tiling](https://github.com/gglouser/cut-and-project-tiling)
 
 [This interactive applet](https://gglouser.github.io/cut-and-project-tiling) draws tilings like the [Penrose tiling](https://en.wikipedia.org/wiki/Penrose_tiling) using a generalized multigrid method or the equivalent cut-and-project method. [Example gallery.](https://gglouser.github.io/cut-and-project-tiling/docs/gallery.html)
 
-![example screenshot](./assets/images/tiling_screenshot.png)
+![example screenshot](/assets/images/tiling_screenshot.png)
 
-[Javascript, Rust wasm]
+(Javascript, Rust wasm)
 
 ## Advent of Code Visualizations
 
@@ -33,7 +44,3 @@ Solution repos:
 ## [brainfree](https://github.com/gglouser/brainfree)
 
 A [brainf*ck](https://en.wikipedia.org/wiki/Brainfuck) interpreter in Haskell. It represents the program using a free monad and offers multiple "back ends" to evaluate it. It also applies some optimizations to the bf program (arithmetic contraction, clear/copy/multiplication loops, and operation offsets).
-
-## [Jump Game plugin](https://github.com/gglouser/JumpGamePlugin)
-
-This is an old Bukkit (Minecraft server) plugin that runs a simple minigame.
