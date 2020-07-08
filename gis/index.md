@@ -5,7 +5,9 @@ title: Grant's GIS Projects
 
 Here are some GIS projects I've done.
 
-- [Determining Release Locations for Rehabilitated Birds](./bird_release)
+- [Determining Release Locations for Rehabilitated Birds](bird_release)
+- [Burn Severity and Land Cover Transition in the McNally Fire](mcnally_fire)
+- [Fire perimeter estimation: Atlas Fire 2017](atlas_fire)
 
 ## GIS-related blog posts
 
