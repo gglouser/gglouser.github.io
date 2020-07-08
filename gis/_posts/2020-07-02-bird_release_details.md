@@ -16,11 +16,11 @@ I downloaded raster datasets representing abundance of Western Grebes by using t
 
 US Fish & Wildlife Service (USFWS) boundary data was retrieved from [USFWS Geospatial Services](https://www.fws.gov/gis/data/CadastralDB/links_cadastral.html). This data set includes features showing the boundaries of NWRs.
 
-California Department of Fish and Wildlife (CDFW) owned and operated lands data was retrieved from the [CDFW GIS Clearinghouse](https://wildlife.ca.gov/Data/GIS/Clearinghouse). This data includes features showing the boundaries of state wildlife areas and ecological reserves.
+California Department of Fish and Wildlife (CDFW) owned and operated lands data was retrieved from the [CDFW GIS Clearinghouse](https://wildlife.ca.gov/Data/GIS/Clearinghouse). This data includes features showing the boundaries of state wildlife areas and ecological reserves, and includes a field that indicates whether the area is open to public access.
 
 ### Drive-Time Areas
 
-Drive-time area polygon features were generated using [openrouteservice](https://maps.openrouteservice.org/). We don't need a lot of precision here, so I used just two: a 30-minute area and a 60-minute area. Openrouteservice exports the features as GeoJSON, and I used QGIS to convert them to a shapefile for use in ArcMap.
+Drive-time area polygon features, also known as *isochrones*, were generated using [openrouteservice](https://maps.openrouteservice.org/). Openrouteservice exports the features as GeoJSON, and I used QGIS to convert them to a shapefile for use in ArcMap.
 
 ## Suitability Analysis
 
